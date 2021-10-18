@@ -1,0 +1,44 @@
+body {
+	background: #333;
+	margin: 0px;
+	padding: 0px;
+}
+
+img	{
+	min-width: 100%;
+}
+
+section {
+	box-sizing: border-box;
+	float: left;
+	padding: 10px;
+	margin: 1%;
+	background: rgb(255, 255, 255, 0.5);
+}
+
+@media (min-width: 360px) {
+	body {
+		background: green;
+	}
+	section {
+		width: 100%;
+	}
+}
+
+@media (min-width: 720px) {
+	body {
+		background: yellow;
+	}
+	section {
+		width: 48%;
+	}
+}
+
+@media (min-width: 1040px) {
+	body {
+		background: pink;
+	}
+	section {
+		width: 23%;
+	}
+}
